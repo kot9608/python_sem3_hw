@@ -23,8 +23,8 @@ for i in lst:
     min_znach=i
     min_delta=i-n
 
-  # if (i==n):
-  #   min_znach=i
-  #   min_delta=i-n
+  if (i==n):
+    min_znach=i
+    min_delta=i-n
   
 print(f"Самое близкое значение к {n} из массива {lst} = {min_znach}")
